@@ -117,9 +117,3 @@ Antes de realizar esta práctica, no tenía conocimiento alguno sobre GitHub. Lo
 Me ha parecido **muy interesante** y útil todo lo que ofrece esta plataforma. Sé que solo he comenzado a rascar la superficie, pero tengo muchas ganas de seguir aprendiendo y **espero poder dedicarme profesionalmente a esto en el próximo año**.
 
 ---
-
-## 📚 Bibliografía 
-
-- [https://docs.github.com](https://docs.github.com)
-- [https://guides.github.com](https://guides.github.com)
-- Apuntes del profesor
