@@ -10,8 +10,8 @@ Bienvenido a mi portfolio del módulo. Este repositorio contiene los trabajos y 
 ## 📚 Unidades Didácticas
 
 ### 💡 **UD1 - GitHub y Markdown**
-- 📓 [Diario de clase](./UD1%20-%20GitHub%20y%20Markdown/diario_UD1.md)
-- 🔗 [Enlaces a trabajos](./UD1%20-%20GitHub%20y%20Markdown/enlaces_UD1.md)
+- 📓 [Diario de clase](diario_UD1.md)
+- 🔗 [Enlaces a trabajos](enlaces_UD1.md)
 
 ### 💡 **UD2 - [Nombre de la Unidad]**
 - 📓 [Diario de clase](#)
