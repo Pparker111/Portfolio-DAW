@@ -1,5 +1,5 @@
 # Práctica GitHub + Markdown  
-**Autor:** *[Tu nombre aquí]*  
+**Autor:** *Pedro Ignacio Díaz-Alejo Marchante*  
 
 ## Introducción
 
@@ -42,7 +42,7 @@ Aquí se muestra un ejemplo de un archivo `.jpg` subido como prueba. GitHub perm
 
 Al subir un archivo, GitHub nos permite añadir un **mensaje de confirmación** (commit message), con un título y una descripción opcional. Esto ayuda a mantener un historial de cambios claro y organizado.
 
-![Commit changes](ruta/a/tu/foto4.jpg)
+![Commit changes](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-04.png)
 
 ---
 
@@ -50,7 +50,7 @@ Al subir un archivo, GitHub nos permite añadir un **mensaje de confirmación** 
 
 Una vez confirmado el commit, el archivo aparece reflejado correctamente en la vista principal del repositorio.
 
-![Archivo subido con éxito](ruta/a/tu/foto5.jpg)
+![Archivo subido con éxito](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-05.png)
 
 ---
 
@@ -58,7 +58,7 @@ Una vez confirmado el commit, el archivo aparece reflejado correctamente en la v
 
 Ya podemos ver que el repositorio contiene tanto el `README.md` como el archivo subido (en este caso, `prueba.jpg`).
 
-![Repositorio con README y archivo](ruta/a/tu/foto6.jpg)
+![Repositorio con README y archivo](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-06.png)
 
 ---
 
@@ -66,7 +66,7 @@ Ya podemos ver que el repositorio contiene tanto el `README.md` como el archivo 
 
 GitHub nos permite crear más archivos y organizarlos como queramos, ya sea nuevos documentos, carpetas u otros recursos.
 
-![Creación de otro archivo](ruta/a/tu/foto7.jpg)
+![Creación de otro archivo](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-07.png)
 
 ---
 
@@ -74,7 +74,7 @@ GitHub nos permite crear más archivos y organizarlos como queramos, ya sea nuev
 
 Aquí se sube otro archivo como segunda prueba. Esto nos servirá para demostrar el uso de **ramas** y cómo fusionarlas más adelante.
 
-![Segunda subida para probar ramas](ruta/a/tu/foto8.jpg)
+![Segunda subida para probar ramas](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-08.png)
 
 ---
 
@@ -82,7 +82,7 @@ Aquí se sube otro archivo como segunda prueba. Esto nos servirá para demostrar
 
 El botón **Compare & pull request** permite revisar y fusionar ramas. Esto es clave en proyectos colaborativos para revisar cambios antes de integrarlos al proyecto principal.
 
-![Comparar y fusionar ramas](ruta/a/tu/foto9.jpg)
+![Comparar y fusionar ramas](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-09.png)
 
 ---
 
@@ -90,7 +90,7 @@ El botón **Compare & pull request** permite revisar y fusionar ramas. Esto es c
 
 Antes de fusionar, podemos añadir un título y descripción. Esto es especialmente útil en equipos de trabajo, para que todos sepan qué cambios se están proponiendo y por qué.
 
-![Descripción del pull request](ruta/a/tu/foto10.jpg)
+![Descripción del pull request](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-10.png)
 
 ---
 
@@ -98,7 +98,7 @@ Antes de fusionar, podemos añadir un título y descripción. Esto es especialme
 
 Una vez revisado, se aprueba y se realiza el **merge pull request**, uniendo los cambios de la rama secundaria con la principal.
 
-![Fusión de ramas exitosa](ruta/a/tu/foto11.jpg)
+![Fusión de ramas exitosa](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-11.png)
 
 ---
 
@@ -106,7 +106,7 @@ Una vez revisado, se aprueba y se realiza el **merge pull request**, uniendo los
 
 En la configuración de tu perfil puedes añadir un nombre de usuario, una biografía corta, tus pronombres y una imagen de perfil para identificarte mejor.
 
-![Personalización del perfil](ruta/a/tu/foto12.jpg)
+![Personalización del perfil](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-12.png)
 
 ---
 
@@ -118,11 +118,8 @@ Me ha parecido **muy interesante** y útil todo lo que ofrece esta plataforma. S
 
 ---
 
-## 📚 Bibliografía (opcional)
+## 📚 Bibliografía 
 
 - [https://docs.github.com](https://docs.github.com)
 - [https://guides.github.com](https://guides.github.com)
 - Apuntes del profesor
-
-
-![]
