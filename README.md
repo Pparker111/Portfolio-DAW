@@ -1,31 +1,46 @@
-# **PORTFOLIO - DAW***
-### *Pedro Ignacio Díaz-Alejo Marchante*
-Actividad inicial para crear un portfolio del módulo en un repositorio público de GitHub, con dos archivos por unidad: uno para el diario de clase con reflexiones y otro con enlaces a los trabajos realizados.
+# 🎓 **Portfolio DAW - Pedro Ignacio Díaz-Alejo Marchante**
 
-### **TEMA 1** - 
-#### [Diario 1]()
-#### [Ejercicios 1]()
+Bienvenido a mi portfolio del módulo. Este repositorio contiene los trabajos y reflexiones realizadas a lo largo del curso, organizados por Unidades Didácticas (UD). Cada unidad incluye:
 
-### **TEMA 2** - 
-#### [Diario 2]()
-#### [Ejercicios 2]()
+- 📘 Un **Diario de clase** con reflexiones personales.
+- 🔗 Un archivo de **Enlaces a trabajos** realizados.
 
-### **TEMA 3** - 
-#### [Diario 3]()
-#### [Ejercicios 3]()
+---
 
-### **TEMA 3** - 
-#### [Diario 4]()
-#### [Ejercicios 4]()
+## 📚 Unidades Didácticas
 
-### **TEMA 5** - 
-#### [Diario 5]()
-#### [Ejercicios 5]()
+### 💡 **UD1 - GitHub y Markdown**
+- 📓 [Diario de clase](./UD1%20-%20GitHub%20y%20Markdown/diario_UD1.md)
+- 🔗 [Enlaces a trabajos](./UD1%20-%20GitHub%20y%20Markdown/enlaces_UD1.md)
 
-### **TEMA 6** - 
-#### [Diario 6]()
-#### [Ejercicios 6]()
+### 💡 **UD2 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
 
-### **TEMA 7** - 
-#### [Diario 7]()
-#### [Ejercicios 7]()
+### 💡 **UD3 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
+
+### 💡 **UD4 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
+
+### 💡 **UD5 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
+
+### 💡 **UD6 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
+
+### 💡 **UD7 - [Nombre de la Unidad]**
+- 📓 [Diario de clase](#)
+- 🔗 [Enlaces a trabajos](#)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Git & GitHub
+- Markdown
+- Visual Studio Code
