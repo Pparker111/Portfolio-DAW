@@ -1,1 +1,44 @@
+# ============================
+# Archivos de configuración sensibles
+# ============================
+.env              # Variables de entorno (contraseñas, tokens, configuraciones locales)
+*.key             # Claves privadas
+*.pem             # Certificados
+config/*.json     # Configuraciones JSON que puedan contener datos sensibles
+config/*.yml      # Configuraciones YAML
+config/*.php      # Archivos PHP de configuración (ej: conexión a base de datos)
 
+# ============================
+# Archivos temporales / logs
+# ============================
+*.log             # Archivos de log (errores, depuración, etc.)
+*.tmp             # Archivos temporales
+*.cache           # Archivos de caché generados automáticamente
+*.bak             # Copias de seguridad automáticas
+*.swp             # Archivos de swap de editores (ej: Vim)
+*.sql             # Backups de bases de datos (¡no se deben subir!)
+
+# ============================
+# Dependencias externas
+# ============================
+vendor/           # Carpeta generada por Composer (PHP)
+node_modules/     # Carpeta generada por npm/yarn (JavaScript)
+
+# ============================
+# Configuración de IDEs/editores
+# ============================
+.vscode/          # Configuración local de Visual Studio Code
+.idea/            # Configuración de IntelliJ/PHPStorm
+*.iml             # Archivos de proyecto de JetBrains
+
+# ============================
+# Archivos del sistema operativo
+# ============================
+.DS_Store         # Archivos ocultos de macOS
+Thumbs.db         # Miniaturas de Windows
+
+# ============================
+# Archivos de compilación o despliegue
+# ============================
+dist/             # Carpeta de distribución generada en builds
+build/            # Carpeta de compilación
