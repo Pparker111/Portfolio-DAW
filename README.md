@@ -11,7 +11,7 @@ Bienvenido a mi portfolio del módulo. Este repositorio contiene los trabajos y 
 
 ### 💡 **UD1 - GitHub y Markdown**
 - 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD1.md)
-- 🔗 [Enlaces a trabajos]([enlaces_UD1.md](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD01))
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD01)
 
 ### 💡 **UD2 - [Nombre de la Unidad]**
 - 📓 [Diario de clase](#)
