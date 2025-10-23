@@ -76,7 +76,7 @@ docker ps
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/12.png)  
 
 ### 4️⃣ Abrir en el navegador
-🌍 **Nginx**: https://localhost:8080
+🌍 **Nginx**: https://localhost:8080  
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/13.png)  
-☕ **Tomcat**: https://localhost:8081
+☕ **Tomcat**: https://localhost:8081  
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/14.png)
