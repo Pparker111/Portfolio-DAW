@@ -2,19 +2,20 @@ Iniciación a la Virtualización
 Instalacion de Docker Desktop en Ubuntu
 1. Actualiza los repositorios:
    sudo apt update && sudo apt upgrade -y
+   ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-01.png)
    [CAPTURA]
 
-2. Instala dependencias:
+3. Instala dependencias:
    sudo apt install ca-certificates curl gnupg -y
    [CAPTURA]
 
-3. Añade el repositorio de Docker e instala Docker Desktop:
+4. Añade el repositorio de Docker e instala Docker Desktop:
    curl -fsSL https://get.docker.com | sudo sh
    [CAPTURA]
    sudo apt install docker-desktop -y
    [CAPTURA]
 
-4. Verifica que Docker funciona correctamente:
+5. Verifica que Docker funciona correctamente:
    docker --version
    [CAPTURA]
    docker run hello-world
