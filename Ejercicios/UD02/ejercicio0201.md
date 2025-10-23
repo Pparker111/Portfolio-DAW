@@ -11,13 +11,14 @@
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-
-   <div style="text-align: center;">
+   <center>
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/2.png)  
-   </div>
+   </center>
 
 ### 2️⃣ Instala dependencias
-   sudo apt install ca-certificates curl gnupg -y
+```bash
+sudo apt install ca-certificates curl gnupg -y
+```
    <div style="text-align: center;">
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/3.png)  
    </div>
