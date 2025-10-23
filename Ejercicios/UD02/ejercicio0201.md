@@ -8,7 +8,10 @@
 ## 🚀 Instalación de Docker Desktop en Ubuntu  
 
 ### 1️⃣ Actualiza los repositorios  
-   sudo apt update && sudo apt upgrade -y
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
    <div style="text-align: center;">
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/2.png)  
    </div>
