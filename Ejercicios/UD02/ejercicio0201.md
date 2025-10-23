@@ -11,7 +11,6 @@
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-``sudo apt update && sudo apt upgrade -y``
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/2.png)  
 
 ### 2️⃣ Instala dependencias
