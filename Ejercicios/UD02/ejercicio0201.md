@@ -17,17 +17,17 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo apt install ca-certificates curl gnupg -y
 ```
-   <div style="text-align: center;">![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/3.png)  </div>
+   ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/3.png)  
 
 ### 3️⃣ Añade el repositorio de Docker e instala Docker Desktop
-   curl -fsSL https://get.docker.com | sudo sh
-   <div style="text-align: center;">
+```bash
+curl -fsSL https://get.docker.com | sudo sh
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/4.png)  
-   </div>
-   sudo apt install docker-desktop -y
-   <div style="text-align: center;">
+```bash
+sudo apt install docker-desktop -y
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/5.png)  
-   </div>
 
 ### 4️⃣ Verifica que Docker funciona correctamente
    docker --version  
