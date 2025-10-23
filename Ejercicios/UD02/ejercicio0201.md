@@ -22,7 +22,7 @@
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/5.png)  
 
 ### 4️⃣ Verifica que Docker funciona correctamente
-   docker --version
+   docker --version  
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/6.png)  
    docker run hello-world
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/7.png)  
