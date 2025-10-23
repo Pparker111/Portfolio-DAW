@@ -1,49 +1,60 @@
-Iniciación a la Virtualización
-Instalacion de Docker Desktop en Ubuntu
-1. Actualiza los repositorios:
-   sudo apt update && sudo apt upgrade -y
-   ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD01/Imagen/ejercicio0101-01.png)
+# 🧠 Iniciación a la Virtualización  
+
+**Autor:** *Pedro Ignacio Díaz-Alejo Marchante*  
+**Fecha:** *23/10/2025*  
+
+---
+
+## 🚀 Instalación de Docker Desktop en Ubuntu  
+
+### 1️⃣ Actualiza los repositorios  
+sudo apt update && sudo apt upgrade -y
+   ![]()
    [CAPTURA]
 
-3. Instala dependencias:
+### 2️⃣ Instala dependencias
    sudo apt install ca-certificates curl gnupg -y
    [CAPTURA]
 
-4. Añade el repositorio de Docker e instala Docker Desktop:
+### 3️⃣ Añade el repositorio de Docker e instala Docker Desktop
    curl -fsSL https://get.docker.com | sudo sh
    [CAPTURA]
    sudo apt install docker-desktop -y
    [CAPTURA]
 
-5. Verifica que Docker funciona correctamente:
+### 4️⃣ Verifica que Docker funciona correctamente
    docker --version
    [CAPTURA]
    docker run hello-world
    [CAPTURA]
 
-Instalación de contenedores de servidor web y de aplicaciones
-Conceptos:
-- Servidor web: Atiende peticiones HTTP/HTTPS (ej.:Nginx, Apache).
-- Servidor de aplicaciones: Ejecuta la lógica de negocio (ej.: Tomcat, WildFly).
+## 🧱 Instalación de contenedores de servidor web y de aplicaciones
+💡 Conceptos
 
-1. Busca imágenes disponibles:
+**Servidor web:** Atiende peticiones HTTP/HTTPS (*por ejemplo: Nginx, Apache*).
+
+**Servidor de aplicaciones:** Ejecuta la lógica de negocio (*por ejemplo: Tomcat, WildFly*).
+
+### 1️⃣ Buscar imágenes disponibles
    docker search nginx
    [CAPTURA]
    docker search tomcat
    [CAPTURA]
 
-2. Descargar e iniciar contenedores:
+### 2️⃣ Descargar e iniciar contenedores
+#### 🌐 Servidor Web (Nginx)
    docker run -d -p 8080:80 --name webserver nginx
    [CAPTURA]
+#### ⚙️ Servidor de Aplicaciones (Tomcat)
    docker run -d -p 8081:8080 --name appserver tomcat
    [CAPTURA]
 
-3. Verificar contenedores activos:
+### 3️⃣ Verificar contenedores activos
    docker ps
    [CAPTURA]
 
-4. Abrir en el navegador:
-   - Nginx: https://localhost:8080
+### 4️⃣ Abrir en el navegador
+🌍 Nginx: https://localhost:8080
    [CAPTURA]
-   - Tomcat: https://localhost:8081
+☕ Tomcat: https://localhost:8081
    [CAPTURA]
