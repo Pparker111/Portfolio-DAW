@@ -17,9 +17,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo apt install ca-certificates curl gnupg -y
 ```
-   <div style="text-align: center;">
-   ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/3.png)  
-   </div>
+   <div style="text-align: center;">![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/3.png)  </div>
 
 ### 3️⃣ Añade el repositorio de Docker e instala Docker Desktop
    curl -fsSL https://get.docker.com | sudo sh
