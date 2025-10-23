@@ -30,14 +30,14 @@ sudo apt install docker-desktop -y
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/5.png)  
 
 ### 4️⃣ Verifica que Docker funciona correctamente
-   docker --version  
-   <div style="text-align: center;">
+```bash
+docker --version  
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/6.png)  
-   </div>
-   docker run hello-world
-   <div style="text-align: center;">
+```bash
+docker run hello-world
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/7.png)  
-   </div>
 
 ## 🧱 Instalación de contenedores de servidor web y de aplicaciones
 💡 **Conceptos**
@@ -47,39 +47,36 @@ sudo apt install docker-desktop -y
 **Servidor de aplicaciones:** Ejecuta la lógica de negocio (*por ejemplo: Tomcat, WildFly*).
 
 ### 1️⃣ Buscar imágenes disponibles
-   docker search nginx
-   <div style="text-align: center;">
+```bash
+docker search nginx
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/8.png)  
-   </div>
-   docker search tomcat
-   <div style="text-align: center;">
+```bash
+docker search tomcat
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/9.png)  
-   </div>
 
 ### 2️⃣ Descargar e iniciar contenedores
 #### 🌐 Servidor Web (Nginx)
-   docker run -d -p 8080:80 --name webserver nginx
-   <div style="text-align: center;">
+```bash
+docker run -d -p 8080:80 --name webserver nginx
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/10.png)  
-   </div>
+   
 #### ⚙️ Servidor de Aplicaciones (Tomcat)
-   docker run -d -p 8081:8080 --name appserver tomcat
-   <div style="text-align: center;">
+```bash
+docker run -d -p 8081:8080 --name appserver tomcat
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/11.png)  
-   </div>
 
 ### 3️⃣ Verificar contenedores activos
-   docker ps
-   <div style="text-align: center;">
+```bash
+docker ps
+```
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/12.png)  
-   </div>
 
 ### 4️⃣ Abrir en el navegador
 🌍 **Nginx**: https://localhost:8080
-   <div style="text-align: center;">
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/13.png)  
-   </div>
 ☕ **Tomcat**: https://localhost:8081
-   <div style="text-align: center;">
    ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD02/imagenes/14.png)
-   </div>
