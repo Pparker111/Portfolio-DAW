@@ -14,28 +14,28 @@ Bienvenido a mi portfolio del módulo. Este repositorio contiene los trabajos y 
 - 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD01)
 
 ### 💡 **UD2 - Introducción a las Aplicaciones WEB**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD2.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD02)
 
-### 💡 **UD3 - [Nombre de la Unidad]**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+### 💡 **UD3 - Apache**
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD3.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD03)
 
 ### 💡 **UD4 - [Nombre de la Unidad]**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD4.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD04)
 
 ### 💡 **UD5 - [Nombre de la Unidad]**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD5.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD05)
 
 ### 💡 **UD6 - [Nombre de la Unidad]**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD6.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD06)
 
 ### 💡 **UD7 - [Nombre de la Unidad]**
-- 📓 [Diario de clase](#)
-- 🔗 [Enlaces a trabajos](#)
+- 📓 [Diario de clase](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD7.md)
+- 🔗 [Enlaces a trabajos](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD07)
 
 ---
 
