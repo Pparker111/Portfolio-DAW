@@ -1,6 +1,35 @@
+# Instalación y Configuración de un Servidor Web Apache2 en Ubuntu
+
+## Resumen
+
+Este documento describe el proceso completo de instalación y configuración de un servidor web Apache2 en un sistema operativo Ubuntu. A lo largo del trabajo, se documentan paso a paso los comandos utilizados, las configuraciones aplicadas y las evidencias gráficas que demuestran el correcto desarrollo del proceso.  
+Durante la práctica se crearon hosts virtuales, se modificaron permisos y se realizaron pruebas para verificar la conectividad. Aunque la página final no funcionó correctamente, se analizan las causas más comunes del problema y se proponen soluciones. El trabajo refleja el aprendizaje práctico sobre administración de servidores Linux y la importancia de comprender los fundamentos del entorno Ubuntu para el desarrollo profesional.
+
+---
+
+## Palabras Clave
+
+`Apache2` · `Ubuntu` · `Linux` · `Servidor Web` · `Configuración` · `Host Virtual` · `Administración de Sistemas`
+
+---
+
+## Índice
+
+1. [Relación de las Actividades Realizadas](#3-relación-de-las-actividades-realizadas)  
+   1. [Preparación del Sistema](#31-preparación-del-sistema)  
+   2. [Instalación de Apache](#32-instalación-de-apache)  
+   3. [Configuración del Servidor](#33-configuración-del-servidor)  
+   4. [Reinicio y Aplicación de Cambios](#34-reinicio-y-aplicación-de-cambios)  
+   5. [Creación de un Sitio Web Personalizado (Host Virtual)](#35-creación-de-un-sitio-web-personalizado-host-virtual)  
+   6. [Pruebas del Host Virtual y Resolución de Problemas](#36-pruebas-del-host-virtual-y-resolución-de-problemas)  
+2. [Resultados y Conclusiones](#resultados-y-conclusiones)  
+3. [Bibliografía](#bibliografía)
+
+---
+
 ## 3. Relación de las Actividades Realizadas
 
-En esta sección se detalla el proceso técnico llevado a cabo para la **instalación y configuración de un servidor web Apache2** en un sistema operativo **Ubuntu**.
+En esta sección se detalla el proceso técnico llevado a cabo para la **instalación y configuración de un servidor web Apache2** en un sistema operativo **Ubuntu**.  
 El procedimiento se ha documentado paso a paso, incluyendo los comandos ejecutados y las evidencias gráficas correspondientes a cada fase del proceso.
 
 ---
@@ -217,6 +246,23 @@ http://gci.example.com
 
 > **Evidencia:**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/16.png)
+
+---
+
+### Resultados y Conclusiones
+
+Durante la realización de esta práctica no se presentaron errores críticos en la instalación o ejecución de los comandos. Sin embargo, el proceso supuso un desafío importante debido a mi falta de familiaridad con Ubuntu y los sistemas Linux.
+Aunque los pasos fueron seguidos correctamente, la comprensión de lo que cada comando hacía en detalle resultó compleja. En ciertos momentos, la tarea se sintió como "hablar en otro idioma", ya que no tengo aún una base sólida en administración de servidores.
+
+A pesar de ello, la experiencia fue valiosa. Me permitió dar mis primeros pasos en la configuración de servidores web y comprender la lógica detrás de los archivos de configuración de Apache.
+
+El problema final con el Host Virtual se debió a una causa muy común: el navegador no reconoce el dominio gci.example.com porque no está configurado en ningún servidor DNS público. Es decir, Apache sí sabe qué hacer cuando se le solicita ese dominio, pero el navegador no logra encontrarlo.
+
+La solución pasa por añadir una entrada en el archivo hosts del sistema local o realizar pruebas con la dirección IP directamente.
+Esto confirma que, a pesar del fallo aparente, la configuración técnica del servidor fue realizada correctamente.
+
+En resumen, aunque la página final no se mostró, los objetivos principales se cumplieron: se instaló, configuró y personalizó Apache con éxito.
+Me llevo un aprendizaje importante y la motivación de mejorar cada día un poco más para dominar estos entornos, fundamentales para mi desarrollo profesional.
 
 ---
 
