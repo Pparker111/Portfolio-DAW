@@ -115,6 +115,6 @@ IONOS. (s.f.). Instalar Apache en Ubuntu: Guía de instalación y configuración
 
 Cumpi Linux.  21 ene 2025. Cómo Instalar Apache en Ubuntu 24 con Configuración Inicial Paso a Paso. YouTube. https://www.youtube.com/watch?v=VA-8hQt5hSo
 
-Ubuntu. (s.f.). Install and Configure Apache. Recuperado de: https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
+Ubuntu. (s.f.). Install and Configure Apache. Recuperado de:   https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
 
 -----
