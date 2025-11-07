@@ -15,9 +15,6 @@ sudo apt upgrade -y
 
 > **Evidencia:**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/1.png)  
->
-> **Problemas encontrados:** *(Opcional)*
-> [cite\_start]*Ej: "No se encontraron problemas" o "El paquete X requirió una intervención manual...".* [cite: 31]
 
 ### 3.2. Instalación de Apache
 
@@ -42,8 +39,6 @@ hostname -I
 
 > **Evidencia:**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/3.png)  
->
-> **Nota:** *Aquí puedes añadir una frase como: "La IP obtenida (ej: 192.168.1.50) se utilizó para comprobar el acceso desde un navegador, mostrando la página de bienvenida de Apache".*
 
 ### 3.3. Configuración del Servidor
 
@@ -108,7 +103,3 @@ sudo systemctl restart apache2
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/8.png)
 
 -----
-
-[cite\_start]Esta estructura te permite presentar la información de forma ordenada, impersonal (como pedía el PDF) [cite: 34] y cubriendo todos los requisitos de la tarea.
-
-[cite\_start]¿Quieres que te ayude a buscar el siguiente tutorial que te pedía el profesor (por ejemplo, sobre **"control de acceso" en Apache**)? [cite: 26]
