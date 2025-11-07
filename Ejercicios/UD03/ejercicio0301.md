@@ -1,10 +1,19 @@
-# 🚀 Instalación y Configuración de un Servidor Web Apache2 en Ubuntu
+<p align="center">
+  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="100"/>
+</p>
 
-**Autor:** Pedro Ignacio Díaz-Alejo Marchante
-**Curso:** 2º de Desarrollo de Aplicaciones Web (DAW)  
-**Asignatura:** Despliegue de Aplicaciones Web  
-**Fecha:** 7 de Noviembre de 2025  
-**Sistema utilizado:** Ubuntu 24.04 LTS  
+<h1 align="center">Instalación y Configuración de un Servidor Web Apache2 en Ubuntu</h1>
+
+<p align="center">
+  <b>Autor:</b> [Tu Nombre Aquí] · 
+  <b>Curso:</b> 2º DAW · 
+  <b>Asignatura:</b> Implantación de Aplicaciones Web  
+</p>
+
+<p align="center">
+  <b>Fecha:</b> Noviembre de 2025 · 
+  <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
+</p>
 
 ---
 
