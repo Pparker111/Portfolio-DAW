@@ -1,19 +1,28 @@
-# Instalación y Configuración de un Servidor Web Apache2 en Ubuntu
+# 🚀 Instalación y Configuración de un Servidor Web Apache2 en Ubuntu
 
-## Resumen
-
-Este documento describe el proceso completo de instalación y configuración de un servidor web Apache2 en un sistema operativo Ubuntu. A lo largo del trabajo, se documentan paso a paso los comandos utilizados, las configuraciones aplicadas y las evidencias gráficas que demuestran el correcto desarrollo del proceso.  
-Durante la práctica se crearon hosts virtuales, se modificaron permisos y se realizaron pruebas para verificar la conectividad. Aunque la página final no funcionó correctamente, se analizan las causas más comunes del problema y se proponen soluciones. El trabajo refleja el aprendizaje práctico sobre administración de servidores Linux y la importancia de comprender los fundamentos del entorno Ubuntu para el desarrollo profesional.
+**Autor:** Pedro Ignacio Díaz-Alejo Marchante
+**Curso:** 2º de Desarrollo de Aplicaciones Web (DAW)  
+**Asignatura:** Despliegue de Aplicaciones Web  
+**Fecha:** 7 de Noviembre de 2025  
+**Sistema utilizado:** Ubuntu 24.04 LTS  
 
 ---
 
-## Palabras Clave
+## 🧭 Resumen
+
+Este documento describe el proceso completo de instalación y configuración de un servidor web Apache2 en un sistema operativo Ubuntu. A lo largo del trabajo, se documentan paso a paso los comandos utilizados, las configuraciones aplicadas y las evidencias gráficas que demuestran el correcto desarrollo del proceso.  
+Durante la práctica se crearon hosts virtuales, se modificaron permisos y se realizaron pruebas para verificar la conectividad. Aunque la página final no funcionó correctamente, se analizan las causas más comunes del problema y se proponen soluciones.  
+El trabajo refleja el aprendizaje práctico sobre administración de servidores Linux y la importancia de comprender los fundamentos del entorno Ubuntu para el desarrollo profesional.
+
+---
+
+## 🔑 Palabras Clave
 
 `Apache2` · `Ubuntu` · `Linux` · `Servidor Web` · `Configuración` · `Host Virtual` · `Administración de Sistemas`
 
 ---
 
-## Índice
+## 📚 Índice
 
 1. [Relación de las Actividades Realizadas](#3-relación-de-las-actividades-realizadas)  
    1. [Preparación del Sistema](#31-preparación-del-sistema)  
@@ -249,7 +258,7 @@ http://gci.example.com
 
 ---
 
-### Resultados y Conclusiones
+### 🧩 Resultados y Conclusiones
 
 Durante la realización de esta práctica no se presentaron errores críticos en la instalación o ejecución de los comandos. Sin embargo, el proceso supuso un desafío importante debido a mi falta de familiaridad con Ubuntu y los sistemas Linux.
 Aunque los pasos fueron seguidos correctamente, la comprensión de lo que cada comando hacía en detalle resultó compleja. En ciertos momentos, la tarea se sintió como "hablar en otro idioma", ya que no tengo aún una base sólida en administración de servidores.
@@ -266,7 +275,7 @@ Me llevo un aprendizaje importante y la motivación de mejorar cada día un poco
 
 ---
 
-### Bibliografía
+### 📖 Bibliografía
 
 * Puntocomunica. (s.f.). *Instalar servidor Apache 2 en Ubuntu.* Recuperado de: [https://foro.puntocomunica.com/viewtopic.php?t=312](https://foro.puntocomunica.com/viewtopic.php?t=312)
 * IONOS. (s.f.). *Instalar Apache en Ubuntu: Guía de instalación y configuración.* Recuperado de: [https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/](https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/)
