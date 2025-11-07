@@ -14,7 +14,7 @@ sudo apt upgrade -y
 ```
 
 > **Evidencia:**
-> ![Aquí insertas tu **Foto 1** del comando `apt update/upgrade`](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/1.png)  
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/1.png)  
 >
 > **Problemas encontrados:** *(Opcional)*
 > [cite\_start]*Ej: "No se encontraron problemas" o "El paquete X requirió una intervención manual...".* [cite: 31]
@@ -30,7 +30,7 @@ sudo apt install apache2 -y
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 2** mostrando la instalación completada.]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/2.png)  
 
 **Paso 3: Verificación de la instalación**
 
@@ -41,7 +41,7 @@ hostname -I
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 3** donde se ve la dirección IP que te devolvió.]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/3.png)  
 >
 > **Nota:** *Aquí puedes añadir una frase como: "La IP obtenida (ej: 192.168.1.50) se utilizó para comprobar el acceso desde un navegador, mostrando la página de bienvenida de Apache".*
 
@@ -58,7 +58,7 @@ sudo nano /etc/apache2/envvars
 Se modificaron las líneas `APACHE_RUN_USER` y `APACHE_RUN_GROUP` para reflejar el nuevo propietario (ej: `poner_tu_usuario` y `poner_tu_grupo`).
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 4** (¡la que me enviaste antes\!) mostrando el editor `nano` con las líneas cambiadas.]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/4.png)
 
 **Paso 5: Configuración del Directorio Raíz**
 
@@ -69,7 +69,7 @@ sudo nano /etc/apache2/apache2.conf
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 5** mostrando el bloque `<Directory /var/www/>` modificado.]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/5.png)
 
 **Paso 6: Habilitación de Módulos**
 
@@ -81,7 +81,7 @@ sudo a2enmod rewrite
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 6** mostrando la salida de la terminal al activar los módulos.]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/6.png)
 
 **Paso 7: Ajuste de Propiedades del Directorio**
 
@@ -92,7 +92,7 @@ sudo chown -R $USER:$USER /var/www/html
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 7** (probablemente no muestre salida, o puedes mostrar un `ls -l` después para comprobarlo).]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/7.png)
 
 ### 3.4. Reinicio y Aplicación de Cambios
 
@@ -105,7 +105,7 @@ sudo systemctl restart apache2
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 8** (probablemente sin salida, o puedes complementarla con un `systemctl status apache2` para demostrar que está "active (running)").]*
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/8.png)
 
 -----
 
