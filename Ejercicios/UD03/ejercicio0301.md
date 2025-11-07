@@ -102,4 +102,19 @@ sudo systemctl restart apache2
 > **Evidencia:**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/8.png)
 
+¡Claro! Entiendo que quisiste decir "bibliografía".
+
+Aquí tienes la lista de las fuentes que has utilizado, formateada para que la puedas incluir en tu documento.
+
+También he añadido el enlace del tutorial de Ubuntu que mencionaba tu profesor en el PDF, ya que es la fuente principal de la parte práctica.
+
+Bibliografía
+Puntocomunica. (s.f.). Instalar servidor Apache 2 en Ubuntu. [Mensaje en foro]. Recuperado de: https://foro.puntocomunica.com/viewtopic.php?t=312
+
+IONOS. (s.f.). Instalar Apache en Ubuntu: Guía de instalación y configuración. Recuperado de: https://www.ionos.es/digitalguide/servidores/configuracion/instalar-apache-en-ubuntu/
+
+[Nombre del canal de YouTube]. (Fecha de publicación). [Título del Video]. [Video]. YouTube. https://www.youtube.com/watch?v=VA-8hQt5hSo
+
+Ubuntu. (s.f.). Install and Configure Apache. Recuperado de: https://ubuntu.com/tutorials/install-and-configure-apache#1-overview
+
 -----
