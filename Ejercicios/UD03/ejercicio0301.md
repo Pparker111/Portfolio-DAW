@@ -5,13 +5,13 @@
 <h1 align="center">Instalación y Configuración de un Servidor Web Apache2 en Ubuntu</h1>
 
 <p align="center">
-  <b>Autor:</b> [Tu Nombre Aquí] · 
+  <b>Autor:</b> Pedro Ignacio Díaz-alejo Marchante · 
   <b>Curso:</b> 2º DAW · 
-  <b>Asignatura:</b> Implantación de Aplicaciones Web  
+  <b>Asignatura:</b> Despliegue de Aplicaciones Web  
 </p>
 
 <p align="center">
-  <b>Fecha:</b> Noviembre de 2025 · 
+  <b>Fecha:</b> 7 de Noviembre de 2025 · 
   <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
 </p>
 
