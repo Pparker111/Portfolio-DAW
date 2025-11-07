@@ -14,7 +14,7 @@ sudo apt upgrade -y
 ```
 
 > **Evidencia:**
-> *[Aquí insertas tu **Foto 1** del comando `apt update/upgrade`](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/1.png)*
+> ![Aquí insertas tu **Foto 1** del comando `apt update/upgrade`](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/1.png)  
 >
 > **Problemas encontrados:** *(Opcional)*
 > [cite\_start]*Ej: "No se encontraron problemas" o "El paquete X requirió una intervención manual...".* [cite: 31]
