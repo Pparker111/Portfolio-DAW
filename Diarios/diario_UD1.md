@@ -1,4 +1,4 @@
-# 🐙 Diario de Reflexión: GitHub y Markdown ✍️
+# 🐙 Diario de Reflexión (Tema 1): GitHub y Markdown ✍️
 
 ## ¿Qué he aprendido? 🎓
 
