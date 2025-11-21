@@ -17,6 +17,30 @@
 
 ---
 
+## 📑 Índice
+
+1. [Investigación](#-investigación)
+   - [Funcionamiento del protocolo HTTPS](#-1-funcionamiento-del-protocolo-https-y-su-importancia)
+   - [Tipos de certificados SSL/TLS](#-2-tipos-de-certificados-ssltls)
+   - [Módulos necesarios de Apache2](#-3-módulos-necesarios-de-apache2-para-ssltls)
+
+2. [Resumen del objetivo de la tarea](#-resumen-del-objetivo-de-la-tarea)
+
+3. [Palabras clave](#-palabras-clave)
+
+4. [Proceso de configuración](#-proceso-de-configuración)
+   - [Instalación y verificación de Apache2](#1-instalación-y-verificación-de-apache2)
+   - [Habilitar módulos SSL y Headers](#2-habilitar-módulos-ssl-y-headers)
+   - [Generación del certificado SSLTLS](#3-generación-de-certificado-ssltls)
+   - [Configuración del VirtualHost HTTPS](#4-configuración-del-virtualhost-para-https-443)
+   - [Redirección HTTP → HTTPS](#5-redirección-http--https)
+   - [Reiniciar y recargar Apache](#6-reiniciar-y-recargar-apache)
+   - [Validación de la implementación](#7-validación-de-la-implementación)
+
+5. [Conclusión](#-conclusión)
+
+---
+
 # 📘 Investigación
 
 ## 🔐 1. Funcionamiento del protocolo HTTPS y su importancia
@@ -67,33 +91,10 @@ El objetivo de esta práctica es **configurar un servidor Apache2 en Ubuntu para
 Además, se incluye la redirección automática de HTTP → HTTPS, garantizando una navegación segura y cifrada.
 
 ---
+
 ## 🔑 Palabras Clave
 
 `Apache2` · `Ubuntu 24.04` · `SSL` · `TLS` · `HTTPS` · `Certificado autofirmado` · `Let’s Encrypts` · `Certbot` · `Redirección` · `VirtualHost` · `Seguridad web`
-
----
-
-## 📑 Índice
-
-1. [Investigación](#-investigación)
-   - [Funcionamiento del protocolo HTTPS](#-1-funcionamiento-del-protocolo-https-y-su-importancia)
-   - [Tipos de certificados SSL/TLS](#-2-tipos-de-certificados-ssltls)
-   - [Módulos necesarios de Apache2](#-3-módulos-necesarios-de-apache2-para-ssltls)
-
-2. [Resumen del objetivo de la tarea](#-resumen-del-objetivo-de-la-tarea)
-
-3. [Palabras clave](#-palabras-clave)
-
-4. [Proceso de configuración](#-proceso-de-configuración)
-   - [Instalación y verificación de Apache2](#1-instalación-y-verificación-de-apache2)
-   - [Habilitar módulos SSL y Headers](#2-habilitar-módulos-ssl-y-headers)
-   - [Generación del certificado SSLTLS](#3-generación-de-certificado-ssltls)
-   - [Configuración del VirtualHost HTTPS](#4-configuración-del-virtualhost-para-https-443)
-   - [Redirección HTTP → HTTPS](#5-redirección-http--https)
-   - [Reiniciar y recargar Apache](#6-reiniciar-y-recargar-apache)
-   - [Validación de la implementación](#7-validación-de-la-implementación)
-
-5. [Conclusión](#-conclusión)
 
 ---
 
