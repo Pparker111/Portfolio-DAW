@@ -234,13 +234,13 @@ Gracias a ello, la configuración de Apache con HTTPS ha sido totalmente fluida 
 
 ### 📖 Bibliografía
 
-* Boucheron, Brian; Ellingwood, Justin. Cómo crear un certificado SSL autofirmado para Apache en Ubuntu 18.04. DigitalOcean Community, publicado el 9 de enero de 2020.
+* Boucheron, Brian; Ellingwood, Justin. Cómo crear un certificado SSL autofirmado para Apache en Ubuntu 18.04. DigitalOcean Community, publicado el 9 de enero de 2020.  
   Disponible en: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04-es
 
-* SSLmarket. Redireccionamiento de HTTP a HTTPS. SSLmarket ayuda, artículo sin fecha específica.
+* SSLmarket. Redireccionamiento de HTTP a HTTPS. SSLmarket ayuda, artículo sin fecha específica.  
   Disponible en: https://www.sslmarket.mx/ssl/help-redireccionamiento-de-http-a-https
 
-* Blai Blog. Configurar HTTPS en Apache. Publicado en noviembre de 2018.
+* Blai Blog. Configurar HTTPS en Apache. Publicado en noviembre de 2018.  
   Disponible en: https://www.blai.blog/2018/11/configurar-https-en-apache.html
 
 ---
