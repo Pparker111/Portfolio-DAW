@@ -8,7 +8,8 @@ sudo apt install apache2 -y
 systemctl status apache2
 ```
 
-*(Captura aquí del estado de Apache)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/21.png)
 
 ------------------------------------------------------------------------
 
@@ -20,7 +21,8 @@ sudo a2enmod headers
 sudo systemctl restart apache2
 ```
 
-*(Captura de habilitación de módulos)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/22.png)
 
 ------------------------------------------------------------------------
 
@@ -36,16 +38,10 @@ sudo openssl req -x509 -nodes -days 365 \
   -out /etc/apache2/ssl/selfsigned.crt
 ```
 
-*(Captura del proceso OpenSSL)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/23.png)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/24.png)
 
-### Opción B: Certificado Let's Encrypt
-
-``` bash
-sudo apt install certbot python3-certbot-apache -y
-sudo certbot --apache
-```
-
-*(Captura del proceso de Certbot)*
 
 ------------------------------------------------------------------------
 
@@ -70,7 +66,9 @@ Archivo: `tu-sitio-ssl.conf`
 </VirtualHost>
 ```
 
-*(Captura del archivo de configuración)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/25.png)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/26.png)
 
 ------------------------------------------------------------------------
 
@@ -85,7 +83,9 @@ Editar `000-default.conf`:
 </VirtualHost>
 ```
 
-*(Captura de la configuración)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/28.png)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/29.png)
 
 ------------------------------------------------------------------------
 
@@ -95,8 +95,6 @@ Editar `000-default.conf`:
 sudo a2ensite tu-sitio-ssl.conf
 sudo systemctl restart apache2
 ```
-
-*(Captura del reinicio)*
 
 ------------------------------------------------------------------------
 
@@ -108,8 +106,6 @@ Visitar:
 
     http://tu-dominio.com  → debe redirigir a →  https://tu-dominio.com
 
-*(Captura del navegador)*
-
 ### curl
 
 ``` bash
@@ -117,7 +113,9 @@ curl -I http://tu-dominio.com
 curl -I https://tu-dominio.com
 ```
 
-*(Capturas de la consola)*
+> **Evidencia:**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/30.png)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD03/imagenes/31.png)
 
 ------------------------------------------------------------------------
 
