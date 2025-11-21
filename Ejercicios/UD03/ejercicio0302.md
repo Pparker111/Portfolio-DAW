@@ -229,3 +229,14 @@ ya sea una estantería sencilla, un armario grande o una cómoda completa, si la
 Ahora bien, si en mitad del proceso apareciera un error inesperado —como cuando falta un tornillo o un tablón en el mueble— ahí sí surgirían dificultades. Pero mientras la guía sea correcta y el material esté completo, ejecutar cada paso no supone ningún problema.
 
 Gracias a ello, la configuración de Apache con HTTPS ha sido totalmente fluida y satisfactoria.
+
+---
+
+### 📖 Bibliografía
+
+* Boucheron, Brian; Ellingwood, Justin. Cómo crear un certificado SSL autofirmado para Apache en Ubuntu 18.04. DigitalOcean Community, publicado el 9 de enero de 2020. Disponible en: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04-es
+
+* SSLmarket. Redireccionamiento de HTTP a HTTPS. SSLmarket ayuda, artículo sin fecha específica. Disponible en: https://www.sslmarket.mx/ssl/help-redireccionamiento-de-http-a-https
+
+* Blai Blog. Configurar HTTPS en Apache. Publicado en noviembre de 2018. Disponible en: https://www.blai.blog/2018/11/configurar-https-en-apache.html
+ 
