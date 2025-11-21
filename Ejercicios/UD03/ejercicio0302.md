@@ -67,20 +67,9 @@ El objetivo de esta práctica es **configurar un servidor Apache2 en Ubuntu para
 Además, se incluye la redirección automática de HTTP → HTTPS, garantizando una navegación segura y cifrada.
 
 ---
+## 🔑 Palabras Clave
 
-# 🏷 PALABRAS CLAVE
-
-- Apache2  
-- SSL  
-- TLS  
-- HTTPS  
-- Certificado autofirmado  
-- Let’s Encrypt  
-- Certbot  
-- Redirección  
-- Ubuntu 24.04  
-- VirtualHost  
-- Seguridad web  
+`Apache2` · `Ubuntu 24.04` · `SSL` · `TLS` · `HTTPS` · `Certificado autofirmado` · `Let’s Encrypts` · `Certbot` · `Redirección` · `VirtualHost` · `Seguridad web`
 
 ---
 
