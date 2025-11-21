@@ -17,7 +17,7 @@
 
 ---
 
-# 📘 INVESTIGACIÓN
+# 📘 Investigación
 
 ## 🔐 1. Funcionamiento del protocolo HTTPS y su importancia
 
@@ -61,7 +61,7 @@ Estos módulos deben activarse antes de usar VirtualHosts en el puerto 443.
 
 ---
 
-# 🎯 RESUMEN
+# 🎯 Resumen
 
 El objetivo de esta práctica es **configurar un servidor Apache2 en Ubuntu para que funcione con HTTPS**, utilizando un certificado SSL/TLS (ya sea autofirmado o de Let’s Encrypt).  
 Además, se incluye la redirección automática de HTTP → HTTPS, garantizando una navegación segura y cifrada.
@@ -73,7 +73,7 @@ Además, se incluye la redirección automática de HTTP → HTTPS, garantizando 
 
 ---
 
-# 🛠 PROCESO DE CONFIGURACIÓN  
+# 🛠 Proceso de configuración 
 
 ## 1. Instalación y verificación de Apache2
 
@@ -194,7 +194,7 @@ curl -I https://tu-dominio.com
 
 ------------------------------------------------------------------------
 
-## 🧩 CONCLUSIÓN
+## 🧩 Conclusión
 
 No he tenido dificultades en la realización de esta práctica, pero no porque tenga un gran conocimiento previo, sino porque se me da muy bien seguir instrucciones técnicas paso a paso.
 
