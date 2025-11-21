@@ -17,6 +17,75 @@
 
 ---
 
+# 📘 INVESTIGACIÓN
+
+## 🔐 1. Funcionamiento del protocolo HTTPS y su importancia
+
+HTTPS (HyperText Transfer Protocol Secure) es la versión segura de HTTP.  
+Su principal diferencia es que:
+
+- Cifra la comunicación entre cliente y servidor mediante **SSL/TLS**.  
+- Evita que terceros intercepten, modifiquen o espíen los datos.  
+- Asegura la identidad del servidor mediante un certificado digital.  
+- Protege formularios, contraseñas, cookies y tráfico sensible.
+
+En la actualidad es imprescindible por razones de seguridad, SEO y confianza del usuario.
+
+---
+
+## 🪪 2. Tipos de certificados SSL/TLS
+
+### **✔ Certificado autofirmado**
+- Generado por el propio servidor.
+- Gratis.
+- Válido para pruebas y entornos locales.
+- Los navegadores muestran advertencia porque no proviene de una autoridad confiable.
+
+### **✔ Certificado emitido por una CA (autoridad certificadora)**
+- Firmado por entidades como Let’s Encrypt, DigiCert, etc.
+- Los navegadores lo reconocen como seguro.
+- Recomendado para producción.
+- Let’s Encrypt ofrece certificados gratuitos y automáticos.
+
+---
+
+## ⚙ 3. Módulos necesarios de Apache2 para SSL/TLS
+
+Para habilitar HTTPS en Ubuntu con Apache se requieren:
+
+- **mod_ssl** → permite el uso de SSL/TLS.
+- **mod_headers** → permite gestionar cabeceras como Strict-Transport-Security.
+- **sites-available/default-ssl.conf** (plantilla opcional).
+
+Estos módulos deben activarse antes de usar VirtualHosts en el puerto 443.
+
+---
+
+# 🎯 RESUMEN DEL OBJETIVO DE LA TAREA
+
+El objetivo de esta práctica es **configurar un servidor Apache2 en Ubuntu para que funcione con HTTPS**, utilizando un certificado SSL/TLS (ya sea autofirmado o de Let’s Encrypt).  
+Además, se incluye la redirección automática de HTTP → HTTPS, garantizando una navegación segura y cifrada.
+
+---
+
+# 🏷 PALABRAS CLAVE
+
+- Apache2  
+- SSL  
+- TLS  
+- HTTPS  
+- Certificado autofirmado  
+- Let’s Encrypt  
+- Certbot  
+- Redirección  
+- Ubuntu 24.04  
+- VirtualHost  
+- Seguridad web  
+
+---
+
+# 🛠 PROCESO DE CONFIGURACIÓN  
+
 ## 1. Instalación y verificación de Apache2
 
 ``` bash
@@ -136,7 +205,13 @@ curl -I https://tu-dominio.com
 
 ------------------------------------------------------------------------
 
-## Conclusión
+## 🧩 CONCLUSIÓN
 
-Con estos pasos, Apache2 queda configurado correctamente con SSL/TLS y
-redirección HTTPS.
+No he tenido dificultades en la realización de esta práctica, pero no porque tenga un gran conocimiento previo, sino porque se me da muy bien seguir instrucciones técnicas paso a paso.
+
+Es el mismo motivo por el que puedo montar muebles de IKEA sin problemas:
+ya sea una estantería sencilla, un armario grande o una cómoda completa, si las instrucciones están claras, el proceso fluye sin complicaciones.
+
+Ahora bien, si en mitad del proceso apareciera un error inesperado —como cuando falta un tornillo o un tablón en el mueble— ahí sí surgirían dificultades. Pero mientras la guía sea correcta y el material esté completo, ejecutar cada paso no supone ningún problema.
+
+Gracias a ello, la configuración de Apache con HTTPS ha sido totalmente fluida y satisfactoria.
