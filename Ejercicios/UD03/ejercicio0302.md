@@ -1,3 +1,21 @@
+<p align="center">
+  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="Ubuntu Logo" width="100"/>
+</p>
+
+<h1 align="center">Documentación de Configuración de Apache2 con SSL en Ubuntu</h1>
+
+<p align="center">
+  <b>Autor:</b> Pedro Ignacio Díaz-alejo Marchante · 
+  <b>Curso:</b> 2º DAW · 
+  <b>Asignatura:</b> Despliegue de Aplicaciones Web  
+</p>
+
+<p align="center">
+  <b>Fecha:</b> 7 de Noviembre de 2025 · 
+  <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
+</p>
+
+---
 # Documentación de Configuración de Apache2 con SSL en Ubuntu
 
 ## 1. Instalación y verificación de Apache2
