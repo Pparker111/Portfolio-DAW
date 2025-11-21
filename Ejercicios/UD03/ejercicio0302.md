@@ -11,12 +11,11 @@
 </p>
 
 <p align="center">
-  <b>Fecha:</b> 7 de Noviembre de 2025 · 
+  <b>Fecha:</b> 21 de Noviembre de 2025 · 
   <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
 </p>
 
 ---
-# Documentación de Configuración de Apache2 con SSL en Ubuntu
 
 ## 1. Instalación y verificación de Apache2
 
