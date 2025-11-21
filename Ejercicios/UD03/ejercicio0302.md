@@ -24,7 +24,7 @@
    - [Tipos de certificados SSL/TLS](#-2-tipos-de-certificados-ssltls)
    - [Módulos necesarios de Apache2](#-3-módulos-necesarios-de-apache2-para-ssltls)
 
-2. [Resumen del objetivo de la tarea](#-resumen-del-objetivo-de-la-tarea)
+2. [Resumen del objetivo de la tarea](#-resumen)
 
 3. [Palabras clave](#-palabras-clave)
 
