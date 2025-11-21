@@ -73,8 +73,6 @@ Además, se incluye la redirección automática de HTTP → HTTPS, garantizando 
 
 ---
 
-## 📚 Índice
-
 ## 📑 Índice
 
 1. [Investigación](#-investigación)
