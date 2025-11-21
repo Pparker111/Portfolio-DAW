@@ -232,7 +232,7 @@ Gracias a ello, la configuración de Apache con HTTPS ha sido totalmente fluida 
 
 ---
 
-### 📖 Bibliografía
+## 📖 Bibliografía
 
 * Boucheron, Brian; Ellingwood, Justin. Cómo crear un certificado SSL autofirmado para Apache en Ubuntu 18.04. DigitalOcean Community, publicado el 9 de enero de 2020.  
   Disponible en: https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04-es
