@@ -61,7 +61,7 @@ Estos módulos deben activarse antes de usar VirtualHosts en el puerto 443.
 
 ---
 
-# 🎯 RESUMEN DEL OBJETIVO DE LA TAREA
+# 🎯 RESUMEN
 
 El objetivo de esta práctica es **configurar un servidor Apache2 en Ubuntu para que funcione con HTTPS**, utilizando un certificado SSL/TLS (ya sea autofirmado o de Let’s Encrypt).  
 Además, se incluye la redirección automática de HTTP → HTTPS, garantizando una navegación segura y cifrada.
