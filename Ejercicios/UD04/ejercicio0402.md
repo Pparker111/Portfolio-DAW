@@ -71,6 +71,6 @@ Cada aplicación puede tener su propio `META-INF/context.xml`, que sobrescribe e
 
 # 🗺️ **Mapa visual de dependencias (añadir aquí)**
 
-
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD04/imagenes/mapa.png)
 
 ---
