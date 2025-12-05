@@ -5,7 +5,7 @@
 <h1 align="center">Instalación y Configuración de un Servidor Web Apache2 en Ubuntu</h1>
 
 <p align="center">
-  <b>Autor:</b> Pedro Ignacio Díaz-alejo Marchante · 
+  <b>Autor:</b> Pedro Ignacio Díaz-Alejo Marchante · 
   <b>Curso:</b> 2º DAW · 
   <b>Asignatura:</b> Despliegue de Aplicaciones Web  
 </p>
