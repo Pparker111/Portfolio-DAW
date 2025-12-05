@@ -1,76 +1,138 @@
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Apache_Tomcat_logo.svg" alt="Tomcat Logo" width="120"/>
+</p>
 
-# **Tomcat: Identificación de archivos de configuración**
+<h1 align="center">Investigación y Descripción de Apache Tomcat</h1>
 
-## 📂 **Archivos clave de configuración en Tomcat**
+<p align="center">
+  <b>Autor:</b> Pedro Ignacio Díaz-Alejo Marchante ·  
+  <b>Curso:</b> 2º DAW ·  
+  <b>Asignatura:</b> Despliegue de Aplicaciones Web  
+</p>
 
----
-
-## **1. `conf/server.xml` ⚙️**
-
-`server.xml` es el archivo **central de configuración** de Tomcat. Aquí se definen los componentes principales del servidor:
-
-* **Connectors** (como Coyote): puertos, protocolos, timeouts, codificación…
-* **Service**: relaciona los Connectors con Catalina.
-* **Engine**: componente que procesa las peticiones.
-* **Hosts virtuales**: permiten alojar múltiples sitios.
-* **Contextos** (aunque no se recomienda definir aquí).
-
-Es el archivo más crítico: un error puede impedir que Tomcat arranque.
+<p align="center">
+  <b>Fecha:</b> 5 de Diciembre de 2025 ·  
+  <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
+</p>
 
 ---
 
-## **2. `conf/web.xml` 📄**
-
-Este archivo actúa como el **deployment descriptor global** de Tomcat. Define comportamientos por defecto para **todas** las aplicaciones web.
-
-Permite configurar:
-
-* Páginas de error globales.
-* Tipos MIME.
-* Parámetros por defecto del contenedor.
-* Filtros o servlets aplicados globalmente.
-* Timeout de sesión.
-
-Cada aplicación puede sobrescribirlo desde su propio `WEB-INF/web.xml`.
+# **📘 Tomcat: Identificación de archivos de configuración**
 
 ---
 
-## **3. `conf/tomcat-users.xml` 🔐**
+## **📝 Enunciado**
 
-Aquí se gestionan los **usuarios y roles internos** del servidor Tomcat. Se usa principalmente para acceder a:
+Localiza en tu instalación de Tomcat los archivos clave:
 
-* **Manager App**.
-* **Host Manager**.
-* Otras aplicaciones restringidas.
+* `conf/server.xml`
+* `conf/web.xml`
+* `conf/tomcat-users.xml`
+* `conf/context.xml`
+
+Explica la función de cada archivo, qué elementos se pueden configurar y elabora un **mapa visual** de las dependencias entre ellos.
+
+---
+
+# **📂 Contenido**
+
+---
+
+## **1. `conf/server.xml` ⚙️ — Configuración principal del servidor**
+
+`server.xml` es el archivo de configuración central de Tomcat. En él se definen los componentes estructurales del servidor:
+
+* **Connectors (Coyote)** → Configuración de puertos, protocolos, timeouts, codificación.
+* **Service** → Relación entre Connectors y Catalina.
+* **Engine** → Procesamiento de peticiones.
+* **Hosts virtuales** → Múltiples sitios en un mismo servidor.
+* **Contextos** (no recomendado definir aquí).
+
+Es el archivo más delicado: un error puede impedir que Tomcat arranque.
+
+---
+
+## **2. `conf/web.xml` 📄 — Descriptor de despliegue global**
+
+Este archivo actúa como el archivo de configuración **global** para todas las aplicaciones del servidor.
 
 Permite definir:
 
-* Usuarios: `<user username="" password="" roles="">`
-* Roles: `<role rolename="">`
+* Páginas de error por defecto.
+* Tipos MIME.
+* Parámetros del contenedor.
+* Filtros y servlets globales.
+* Timeout de sesión.
 
-No es recomendable para producción, pero sí para desarrollo y pruebas locales.
+Cada aplicación puede sobrescribirlo con su propio `WEB-INF/web.xml`.
 
 ---
 
-## **4. `conf/context.xml` 🧩**
+## **3. `conf/tomcat-users.xml` 🔐 — Gestión de usuarios y roles**
 
-Define la **configuración por defecto de los Contextos**, es decir, de todas las aplicaciones desplegadas.
+Archivo encargado de gestionar **usuarios internos y roles** de Tomcat. Se utiliza para:
+
+* Acceder a **Manager App**.
+* Acceder a **Host Manager**.
+* Gestionar autenticación interna.
+
+Configura:
+
+* Roles: `<role rolename="">`
+* Usuarios: `<user username="" password="" roles="">`
+
+Se recomienda solo para entornos locales o educativos.
+
+---
+
+## **4. `conf/context.xml` 🧩 — Configuración por defecto de las aplicaciones**
+
+Define parámetros y configuraciones aplicables a **todos** los contextos (aplicaciones).
 
 Permite configurar:
 
-* Parámetros de aplicación (`<Parameter>`).
-* Recursos: DataSources JDBC, JNDI, conexiones a BD.
-* Configuración de sesiones.
+* Parámetros de aplicación.
+* Recursos (DataSources JDBC, JNDI, conexiones BD).
+* Gestión de sesiones.
 * Rutas externas.
-* Opciones de seguridad y caching.
+* Configuración de seguridad o caching.
 
-Cada aplicación puede tener su propio `META-INF/context.xml`, que sobrescribe este archivo.
+Cada aplicación puede sobrescribirlo con `META-INF/context.xml`.
+
+---
+
+# **🗺️ Mapa visual de dependencias**
+
+```
+                          ┌─────────────────────┐
+                          │      server.xml      │
+                          │  - Connectors        │
+                          │  - Engine            │
+                          │  - Hosts             │
+                          └─────────┬───────────┘
+                                    │
+                        ┌───────────┴───────────┐
+                        │                       │
+           ┌────────────▼────────────┐   ┌──────▼───────────┐
+           │       context.xml        │   │     web.xml       │
+           │ Config. global Contextos │   │ Config. global     │
+           │ Recursos, BD, sesiones   │   │ servlets/filtros   │
+           └────────────┬────────────┘   └────────────────────┘
+                        │
+           ┌────────────▼────────────┐
+           │    tomcat-users.xml      │
+           │ Usuarios y roles         │
+           │ Manager & Host Manager   │
+           └──────────────────────────┘
+```
 
 ---
 
-# 🗺️ **Mapa visual de dependencias (añadir aquí)**
+# 📚 **Bibliografía**
 
-> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD04/imagenes/mapa.png)
+* Documentación oficial de Apache Tomcat
+* [https://tomcat.apache.org/tomcat-9.0-doc/config](https://tomcat.apache.org/tomcat-9.0-doc/config)
+* [https://www.arsys.es/blog/tomcat-servidores-cloud](https://www.arsys.es/blog/tomcat-servidores-cloud)
+* [https://es.wikipedia.org/wiki/Tomcat](https://es.wikipedia.org/wiki/Tomcat)
 
----
