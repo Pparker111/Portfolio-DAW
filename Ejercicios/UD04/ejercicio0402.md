@@ -102,25 +102,25 @@ Cada aplicación puede sobrescribirlo con `META-INF/context.xml`.
 
 ```
                           ┌─────────────────────┐
-                          │      server.xml      │
-                          │  - Connectors        │
-                          │  - Engine            │
-                          │  - Hosts             │
+                          │      server.xml     │
+                          │  - Connectors       │
+                          │  - Engine           │
+                          │  - Hosts            │
                           └─────────┬───────────┘
                                     │
                         ┌───────────┴───────────┐
                         │                       │
            ┌────────────▼────────────┐   ┌──────▼───────────┐
-           │       context.xml        │   │     web.xml       │
-           │ Config. global Contextos │   │ Config. global     │
-           │ Recursos, BD, sesiones   │   │ servlets/filtros   │
-           └────────────┬────────────┘   └────────────────────┘
+           │       context.xml       │   │     web.xml      │
+           │ Config. global Contextos│   │ Config. global   │
+           │ Recursos, BD, sesiones  │   │ servlets/filtros │
+           └────────────┬────────────┘   └──────────────────┘
                         │
            ┌────────────▼────────────┐
-           │    tomcat-users.xml      │
-           │ Usuarios y roles         │
-           │ Manager & Host Manager   │
-           └──────────────────────────┘
+           │    tomcat-users.xml     │
+           │ Usuarios y roles        │
+           │ Manager & Host Manager  │
+           └─────────────────────────┘
 ```
 
 ---
