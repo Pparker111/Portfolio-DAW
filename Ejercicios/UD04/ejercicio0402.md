@@ -31,7 +31,7 @@ Explica la función de cada archivo, qué elementos se pueden configurar y elabo
 
 ---
 
-# **📂 Contenido**
+## **📂 Contenido**
 
 ---
 
@@ -98,7 +98,7 @@ Cada aplicación puede sobrescribirlo con `META-INF/context.xml`.
 
 ---
 
-# **🗺️ Mapa visual de dependencias**
+## **🗺️ Mapa visual de dependencias**
 
 ```
                           ┌─────────────────────┐
@@ -125,7 +125,7 @@ Cada aplicación puede sobrescribirlo con `META-INF/context.xml`.
 
 ---
 
-# 📚 **Bibliografía**
+## 📚 **Bibliografía**
 
 * Documentación oficial de Apache Tomcat
 * [https://tomcat.apache.org/tomcat-9.0-doc/config](https://tomcat.apache.org/tomcat-9.0-doc/config)
