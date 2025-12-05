@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <b>Fecha:</b> 5 de Noviembre de 2025 ·  
+  <b>Fecha:</b> 5 de Diciembre de 2025 ·  
   <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
 </p>
 
