@@ -18,8 +18,6 @@
 
 ---
 
-# **Tomcat: Investigación y Descripción** 🐱🔥
-
 ## **📌 Enunciado**
 
 Investiga y describe brevemente los siguientes elementos de Tomcat:
