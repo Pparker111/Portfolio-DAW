@@ -18,10 +18,6 @@
 
 ---
 
-# **📘 Tomcat: Identificación de archivos de configuración**
-
----
-
 ## **📝 Enunciado**
 
 Localiza en tu instalación de Tomcat los archivos clave:
