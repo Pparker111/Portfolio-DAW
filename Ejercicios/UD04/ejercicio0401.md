@@ -6,7 +6,7 @@
 <h1 align="center">Investigación y Descripción de Apache Tomcat</h1>
 
 <p align="center">
-  <b>Autor:</b> Pedro Ignacio Díaz-alejo Marchante ·  
+  <b>Autor:</b> Pedro Ignacio Díaz-Alejo Marchante ·  
   <b>Curso:</b> 2º DAW ·  
   <b>Asignatura:</b> Despliegue de Aplicaciones Web  
 </p>
