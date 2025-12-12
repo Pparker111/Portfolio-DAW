@@ -33,6 +33,7 @@ Localiza en tu instalación de Tomcat los archivos clave:
 cd /opt/tomcat/conf
 ls -l
 ```
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD04/imagenes/localiza.png)
 
 Explica la función de cada archivo, qué elementos se pueden configurar y elabora un **mapa visual** de las dependencias entre ellos.
 
