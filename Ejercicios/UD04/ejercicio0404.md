@@ -124,4 +124,6 @@ http://localhost/hello
 
 La aplicación respondió correctamente sin necesidad de usar el puerto 8080, lo que confirma que el reverse proxy funciona.
 
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD04/imagenes/sin8080.png)
+
 
