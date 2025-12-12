@@ -20,9 +20,9 @@
 
 ## **📝 Enunciado**
 
-Accede a las interfaces Manager y Host Manager.
-Investiga sus funciones principales: despliegue, recarga, parada, creación de hosts virtuales.
-Elabora una ficha descriptiva de cada herramienta.
+Accede a las interfaces Manager y Host Manager.  
+Investiga sus funciones principales: despliegue, recarga, parada, creación de hosts virtuales.  
+Elabora una ficha descriptiva de cada herramienta.  
 
 ---
 
