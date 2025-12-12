@@ -3,7 +3,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Apache_Tomcat_logo.svg" alt="Tomcat Logo" width="120"/>
 </p>
 
-<h1 align="center">Integración Tomcat + Servidor web de Apache Tomcat</h1>
+<h1 align="center">Configuración de seguridad de Apache Tomcat</h1>
 
 <p align="center">
   <b>Autor:</b> Pedro Ignacio Díaz-Alejo Marchante ·  
