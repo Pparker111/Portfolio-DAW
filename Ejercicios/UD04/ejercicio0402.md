@@ -27,6 +27,13 @@ Localiza en tu instalación de Tomcat los archivos clave:
 * `conf/tomcat-users.xml`
 * `conf/context.xml`
 
+👉 **Para localizarlos hemos usado el comando:**
+
+```
+cd /opt/tomcat/conf
+ls -l
+```
+
 Explica la función de cada archivo, qué elementos se pueden configurar y elabora un **mapa visual** de las dependencias entre ellos.
 
 ---
