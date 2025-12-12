@@ -20,20 +20,14 @@
 
 ## **📝 Enunciado**
 
-¡Entendido\! La documentación debe ser una **guía prescriptiva** sobre *cómo se realiza* el ejercicio completo, y solo al final, mencionar el estado real de la ejecución.
+Realiza una prueba de acceso autenticado y documenta el proceso.
 
-Ajusto el formato para que sea una guía técnica y completa.
+Pistas:
 
------
-
-## 💻 Documentación Técnica: Implementación de Autenticación y SSL/TLS en Apache Tomcat
-
-### 🎯 Enunciado
-
-**Título:** Hardening de Acceso y Configuración de Conector SSL/TLS para Aplicaciones de Gestión en Apache Tomcat.
-
-**Descripción:**
-Este ejercicio documenta el procedimiento estándar para implementar un mecanismo de autenticación basado en roles para las interfaces de gestión de Apache Tomcat y activar el cifrado de tráfico mediante HTTPS/SSL en el puerto `8443`.
+Definir roles y usuarios en tomcat-users.xml.
+Restringir el acceso al Manager.
+Configurar HTTPS con un keystore y un conector SSL.
+Activar security manager (opcional).
 
 -----
 
@@ -80,4 +74,4 @@ La implementación técnica de los pasos 1, 2 y 3 fue completada con éxito, inc
 **Hito Final para Captura:**
 Demostrar el acceso exitoso a la interfaz del Manager tras la validación de credenciales sobre la conexión cifrada HTTPS (puerto 8443).
 
-**[Insertar espacio para Captura de Pantalla aquí]**
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD04/imagenes/nose.png)
