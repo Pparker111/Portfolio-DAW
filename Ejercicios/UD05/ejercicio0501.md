@@ -96,8 +96,8 @@ La diferencia principal radica en **quién inicia la conexión TCP** para el Can
            |         ¿CÓMO PASAMOS LOS DATOS?           |
            |                                            |
    ________V________                            ________V________
-  |   OPCIÓN A:     |                          |   OPCIÓN B:     |
-  |  MODO ACTIVO    |                          |  MODO PASIVO    |
+  |   OPCIÓN A:     |                          |    OPCIÓN B:    |
+  |  MODO ACTIVO    |                          |   MODO PASIVO   |
   |_________________|                          |_________________|
            |                                            |
  1. Cliente envía: "PORT N"                   1. Cliente envía: "PASV"
