@@ -86,7 +86,7 @@ La diferencia principal radica en **quién inicia la conexión TCP** para el Can
 
 ---
 
-CLIENTE (💻)                                SERVIDOR (🖥️)
+CLIENTE (💻)                                SERVIDOR (🖥️)  
            |                                            |
            |   🟢 1. CANAL DE CONTROL (Puerto 21)       |
            |===========================================>|
@@ -111,38 +111,6 @@ CLIENTE (💻)                                SERVIDOR (🖥️)
            |                                            |
    (Problema con Firewalls)                   (Ideal para Firewalls)
 
-
-
-sequenceDiagram
-    autonumber
-    participant C as 💻 Cliente
-    participant S as 🖥️ Servidor FTP
-
-    Note over C,S: 🟢 CANAL DE CONTROL (Puerto 21)<br/>Se establece al inicio y no se cierra
-    C->>S: SYN / ACK (Conexión TCP al Puerto 21)
-    C->>S: USER / PASS (Autenticación)
-    S-->>C: 230 User logged in
-
-    rect rgb(240, 240, 240)
-        Note over C,S: ⬇️ AQUI SE ELIGE EL MODO DE TRANSFERENCIA ⬇️
-    end
-
-    alt ⚡ MODO ACTIVO (Original)
-        Note left of C: Cliente abre Puerto X<br/>y "escucha"
-        C->>S: Comando PORT (Mi IP, Puerto X)
-        Note right of S: Servidor usa su Puerto 20<br/>para conectar al cliente
-        S->>C: 🔴 CANAL DE DATOS (Origen 20 -> Destino X)
-        S-->>C: ACK / Transferencia de archivo
-    else 🛡️ MODO PASIVO (Recomendado)
-        C->>S: Comando PASV
-        Note right of S: Servidor abre Puerto Y<br/>(Rango Pasivo) y "escucha"
-        S-->>C: 227 Entering Passive Mode (IP, Puerto Y)
-        Note left of C: Cliente inicia la conexión<br/>hacia el servidor
-        C->>S: 🔴 CANAL DE DATOS (Origen X -> Destino Y)
-        S-->>C: ACK / Transferencia de archivo
-    end
-
-    Note over C,S: 🟢 El Canal de Control sigue activo para más comandos
 
 
 ---
