@@ -86,7 +86,8 @@ La diferencia principal radica en **quién inicia la conexión TCP** para el Can
 
 ---
 
-CLIENTE (💻)                                SERVIDOR (🖥️)  
+```text
+       CLIENTE (💻)                                SERVIDOR (🖥️)
            |                                            |
            |   🟢 1. CANAL DE CONTROL (Puerto 21)       |
            |===========================================>|
@@ -111,7 +112,7 @@ CLIENTE (💻)                                SERVIDOR (🖥️)
            |                                            |
    (Problema con Firewalls)                   (Ideal para Firewalls)
 
-
+```
 
 ---
 
