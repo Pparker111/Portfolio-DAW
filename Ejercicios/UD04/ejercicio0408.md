@@ -34,10 +34,6 @@ Aquí tienes una versión mucho más extensa y detallada, redactada desde tu per
 
 ---
 
-# Documentación de Virtualización y Despliegue de Apache Tomcat mediante Contenedores
-
-He procedido a evolucionar la infraestructura de la aplicación hacia un modelo de **microservicios y contenedores**. A continuación, detallo el flujo de trabajo técnico, los desafíos encontrados y una comparativa profunda entre arquitecturas.
-
 ## 1. Implementación del Entorno Contenedorizado
 
 Para garantizar un entorno de ejecución inmutable, opté por la plataforma **Docker**. El objetivo fue encapsular todas las dependencias (Java, Tomcat, Librerías del SO) en una unidad lógica única.
