@@ -91,6 +91,4 @@ Aquí está la ficha completa que documenta las funciones de cada herramienta.
 | **Rol Mínimo** | `admin-gui` |
 | **Funciones Clave** | * **Creación de Hosts:** Añadir nuevos Hosts Virtuales, definiendo su nombre de dominio y la ruta base (`appBase`). * **Control del Ciclo de Vida:** **Detener/Iniciar** un Host Virtual. * **Listado de Hosts:** Supervisión del estado operativo de cada Host Virtual configurado. |
 
----
 
-Una vez que has accedido y verificado estas funciones, el ejercicio está completado. ¿Quieres que te ayude a crear la documentación final para este segundo ejercicio?
