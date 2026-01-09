@@ -3,7 +3,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Apache_Tomcat_logo.svg" alt="Tomcat Logo" width="120"/>
 </p>
 
-<h1 align="center">Documentación final de Tomcat</h1>
+<h1 align="center">📘 Manual de Ingeniería: Arquitectura, Optimización y Despliegue de Apache Tomcat</h1>
 
 <p align="center">
   <b>Autor:</b> Pedro Ignacio Díaz-Alejo Marchante ·  
@@ -15,13 +15,6 @@
   <b>Fecha:</b> 9 de Enero de 2026 ·  
   <b>Sistema utilizado:</b> Ubuntu 24.04 LTS  
 </p>
-
----
-
-# 📘 Manual de Ingeniería: Arquitectura, Optimización y Despliegue de Apache Tomcat
-
-**Versión del Documento:** 1.0
-**Objetivo:** Estandarizar la configuración, seguridad y despliegue de servidores de aplicaciones Java.
 
 ---
 
@@ -207,5 +200,3 @@ export CATALINA_OPTS="-Xms4G -Xmx4G -XX:+UseG1GC"
 3. **Logs:** Configurar la rotación de logs para evitar llenar el disco, o mejor aún, enviar los logs a una salida estándar (`stdout`) para que Docker o un sistema ELK los capturen.
 
 ---
-
-¿Te parece bien esta estructura? Si estás listo, podemos simular una **sesión de troubleshooting** sobre un error común (ej: `OutOfMemoryError`) para anexarla como apéndice.
