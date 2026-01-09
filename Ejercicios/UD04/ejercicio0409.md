@@ -20,7 +20,7 @@
 
 ## 📑 Índice de Navegación Rápida
 
-1. [🏗️ Arquitectura del Servidor](https://www.google.com/search?q=%231-arquitectura-del-servidor)
+1. [🏗️ Arquitectura del Servidor](#-1-arquitectura-básica-de-tomcat)
 2. [⚙️ Configuración y Tuning (Server.xml)](https://www.google.com/search?q=%232-configuraci%C3%B3n-y-tuning-serverxml)
 3. [🌐 Integración Web (Proxy Inverso)](https://www.google.com/search?q=%233-integraci%C3%B3n-web-proxy-inverso)
 4. [🛡️ Protocolos de Seguridad (Hardening)](https://www.google.com/search?q=%234-protocolos-de-seguridad-hardening)
