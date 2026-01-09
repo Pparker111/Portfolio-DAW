@@ -20,13 +20,13 @@
 
 ## 📑 Índice de Navegación Rápida
 
-1. [🏗️ Arquitectura del Servidor](#-1-arquitectura-básica-de-tomcat)
-2. [⚙️ Configuración y Tuning (Server.xml)](https://www.google.com/search?q=%232-configuraci%C3%B3n-y-tuning-serverxml)
-3. [🌐 Integración Web (Proxy Inverso)](https://www.google.com/search?q=%233-integraci%C3%B3n-web-proxy-inverso)
-4. [🛡️ Protocolos de Seguridad (Hardening)](https://www.google.com/search?q=%234-protocolos-de-seguridad-hardening)
-5. [📈 Pruebas de Carga y Rendimiento](https://www.google.com/search?q=%235-pruebas-de-carga-y-rendimiento)
-6. [🐳 Estrategia de Contenedores (Docker)](https://www.google.com/search?q=%236-estrategia-de-contenedores-docker)
-7. [🛠️ Mejores Prácticas de Administración](https://www.google.com/search?q=%237-mejores-pr%C3%A1cticas-de-administraci%C3%B3n)
+1. [🏗️ Arquitectura del Servidor](#1-arquitectura-del-servidor)
+2. [⚙️ Configuración y Tuning (Server.xml)](#2-configuración-y-tuning-serverxml)
+3. [🌐 Integración Web (Proxy Inverso)](#3-integración-web-proxy-inverso)
+4. [🛡️ Protocolos de Seguridad (Hardening)](#4-protocolos-de-seguridad-hardening)
+5. [📈 Pruebas de Carga y Rendimiento](#5-pruebas-de-carga-y-rendimiento)
+6. [🐳 Estrategia de Contenedores (Docker)](#6-estrategia-de-contenedores-docker)
+7. [🛠️ Mejores Prácticas de Administración](#7-mejores-prácticas-de-administración)
 
 ---
 
