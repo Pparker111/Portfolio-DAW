@@ -41,7 +41,6 @@ Una vez corregida la configuración, se realizaron las siguientes operaciones:
 1.  **Subida (Upload):** Se transfirió con éxito el archivo `archivo_local.txt` desde la carpeta local al directorio del servidor.
 2.  **Descarga (Download):** Se copió un archivo del servidor de vuelta al almacenamiento local para confirmar la bidireccionalidad.
 
-> **Captura 2: Transferencia exitosa**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T71.png)
 
 
