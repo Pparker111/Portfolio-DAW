@@ -26,7 +26,6 @@ Para acceder al servidor de forma visual, se utilizó el protocolo `ftp://` en e
 
 Al conectar, el sistema desplegó una ventana emergente de autenticación para validar las credenciales del usuario creado previamente.
 
-> **Captura 1: Autenticación de usuario**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T7.png)
 
 ## 2. Incidencias y Resolución
