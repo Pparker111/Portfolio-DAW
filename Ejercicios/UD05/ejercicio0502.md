@@ -60,6 +60,6 @@ No se reportaron problemas críticos durante la configuración de **vsftpd**. El
 
 A continuación, se adjunta la captura de pantalla donde se observa el servicio en estado **active (running)** tras aplicar los cambios:
 
-
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T2.png)
 
 
