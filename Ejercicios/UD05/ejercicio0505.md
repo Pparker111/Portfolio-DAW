@@ -18,13 +18,20 @@
 ---
 
 ## 1. Configuración del Rango Pasivo
-Se ha configurado el servidor para trabajar con un rango de puertos predecible, facilitando la apertura de reglas en el firewall del servidor:
+Para permitir conexiones a través de firewalls, se configuró un rango de puertos específico en `/etc/vsftpd.conf`:
 - **Rango:** 40000 - 40100
-- **Directivas:** `pasv_min_port` y `pasv_max_port`.
+- **Directivas:** `pasv_min_port=40000` y `pasv_max_port=40100`.
 
-## 2. Resultados de las Pruebas
-* **Conexión Modo Activo:** Se observaron dificultades cuando el equipo cliente se encontraba tras un router con NAT o firewall activo, ya que el servidor intentaba iniciar la conexión de datos hacia el cliente y era bloqueada.
-* **Conexión Modo Pasivo:** Funcionó correctamente en todos los entornos, ya que es el cliente quien inicia ambas conexiones (control y datos) hacia el servidor.
+## 2. Metodología de Prueba (Línea de Comandos)
+Se utilizó el cliente FTP de consola para inspeccionar el intercambio de comandos entre cliente y servidor. Los pasos fueron:
+
+1. **Conexión:** `ftp 192.168.1.XX`
+2. **Activación de Debug:** Se ejecutó el comando `debug` para visualizar los comandos de control (`PORT` y `PASV`).
+3. **Alternancia de modos:** Se utilizó el comando `passive` para conmutar entre ambos estados.
+
+### Resultados observados en consola:
+* **En Modo Activo:** Al ejecutar `ls`, el cliente envió el comando `PORT X,X,X,X,Y,Y`, indicando al servidor a qué IP y puerto debía conectarse.
+* **En Modo Pasivo:** El cliente envió el comando `PASV`, y el servidor respondió con `227 Entering Passive Mode`, abriendo un puerto dentro del rango 40000-40100.
 
 ## 3. Tabla Comparativa: Activo vs. Pasivo
 
@@ -32,20 +39,21 @@ Se ha configurado el servidor para trabajar con un rango de puertos predecible, 
 | :--- | :--- | :--- |
 | **Comando del cliente** | Envía comando `PORT` | Envía comando `PASV` |
 | **Conexión de Datos** | Iniciada por el **Servidor** | Iniciada por el **Cliente** |
-| **Problemas de Firewall** | Suele fallar en el lado del cliente. | Suele funcionar bien (estándar actual). |
-| **Configuración Server** | Más sencilla. | Requiere definir rangos de puertos. |
-| **Seguridad** | Menos seguro para el cliente. | Más seguro para el cliente. |
-
-## 4. Análisis de Funcionamiento en Redes con Firewall
-En redes modernas, el **Modo Pasivo funciona mejor**. 
-
-Esto se debe a que la mayoría de los firewalls y routers permiten el tráfico de **salida** (del cliente al servidor) pero bloquean el de **entrada** no solicitado. En el modo activo, el servidor intenta "entrar" al cliente, lo cual es bloqueado por defecto. En el modo pasivo, el cliente "sale" hacia el servidor en ambos canales, algo que los firewalls permiten habitualmente.
-
----
-
-## 5. Captura de Verificación
-A continuación, se muestra la traza de una conexión exitosa en modo pasivo (usando el comando `PASV`):
+| **Problemas de Firewall** | Bloqueado frecuentemente en el cliente. | Atraviesa firewalls con facilidad. |
+| **Configuración Server** | Por defecto (puerto 20). | Requiere rango `pasv_min/max`. |
 
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T5.png)
 
-![Captura de conexión modo pasivo](URL_DE_TU_CAPTURA_AQUÍ)
+## 4. Análisis de Funcionamiento
+En redes con firewall, el **Modo Pasivo es superior**. 
+
+La mayoría de los firewalls modernos (incluido el de Windows o routers domésticos) bloquean por seguridad cualquier conexión entrante no solicitada. En el **Modo Activo**, el servidor intenta abrir una conexión hacia el cliente, lo que activa las defensas del firewall. En cambio, en el **Modo Pasivo**, todas las conexiones son salientes desde el punto de vista del cliente, cumpliendo con las políticas de seguridad estándar.
+
+---
+
+## 5. Evidencias de Conexión
+A continuación se adjuntan las capturas donde se aprecia el uso del comando `debug` y la diferencia entre el envío de `PORT` (Activo) y `PASV` (Pasivo).
+
+> **Captura de Verificación (Modo Consola):**
+
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T51.png)
