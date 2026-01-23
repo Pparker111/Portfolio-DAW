@@ -16,9 +16,6 @@
 </p>
 
 ---
-# Informe de Configuración de Acceso Anónimo
-
-Este documento describe la habilitación de un área de descarga pública mediante acceso FTP anónimo.
 
 ## 1. Procedimiento de Configuración
 Se ha procedido a habilitar el acceso sin credenciales específicas para permitir la descarga de archivos públicos.
