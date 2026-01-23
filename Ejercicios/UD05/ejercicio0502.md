@@ -18,8 +18,6 @@
 
 ---
 
-
-```markdown
 # Informe de Instalación y Configuración de Servidor FTP
 
 Este documento detalla el proceso seguido para la puesta en marcha de un servicio de transferencia de archivos en un entorno Ubuntu Server.
