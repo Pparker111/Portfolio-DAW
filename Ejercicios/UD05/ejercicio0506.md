@@ -17,10 +17,6 @@
 
 ---
 
-¡Perfecto! Vamos a centrarnos exclusivamente en la **Actividad 6**. Aquí tienes la documentación limpia y lista para entregar, detallando los comandos específicos que hemos usado en tu entorno (`localhost`) y la explicación técnica de cada uno.
-
----
-
 ## 1. Preparación del Entorno
 
 Antes de iniciar la conexión, se generó un archivo de prueba en el sistema local para validar la capacidad de subida del servidor.
