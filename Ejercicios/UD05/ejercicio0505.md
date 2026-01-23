@@ -54,6 +54,4 @@ La mayoría de los firewalls modernos (incluido el de Windows o routers domésti
 ## 5. Evidencias de Conexión
 A continuación se adjuntan las capturas donde se aprecia el uso del comando `debug` y la diferencia entre el envío de `PORT` (Activo) y `PASV` (Pasivo).
 
-> **Captura de Verificación (Modo Consola):**
-
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T51.png)
