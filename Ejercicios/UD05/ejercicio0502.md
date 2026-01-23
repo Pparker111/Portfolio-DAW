@@ -18,10 +18,6 @@
 
 ---
 
-# Informe de Instalación y Configuración de Servidor FTP
-
-Este documento detalla el proceso seguido para la puesta en marcha de un servicio de transferencia de archivos en un entorno Ubuntu Server.
-
 ## 1. Introducción y Selección de Software
 Inicialmente, se consideró la instalación de **FileZilla Server**. Sin embargo, se identificó que este software está diseñado principalmente para entornos Windows y no posee una versión de servidor nativa para distribuciones Linux. Por lo tanto, se optó por **vsftpd** (Very Secure FTP Daemon), que es el estándar de la industria en sistemas Unix por su ligereza y seguridad.
 
@@ -64,9 +60,6 @@ No se reportaron problemas críticos durante la configuración de **vsftpd**. El
 
 A continuación, se adjunta la captura de pantalla donde se observa el servicio en estado **active (running)** tras aplicar los cambios:
 
-```
 
 
-¿Quieres que te ayude a redactar una sección extra sobre cómo comprobar desde otro equipo que el puerto está realmente abierto?
 
-```
