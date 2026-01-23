@@ -17,7 +17,6 @@
 
 ---
 
-
 ## 1. Creación de Estructura de Usuarios y Grupos
 Para organizar el acceso al servidor, se ha creado un grupo de seguridad y dos cuentas de usuario vinculadas a este, garantizando que el acceso no sea administrativo sino limitado a sus funciones.
 
