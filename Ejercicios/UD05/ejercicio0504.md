@@ -16,3 +16,27 @@
 </p>
 
 ---
+# Informe de Configuración de Acceso Anónimo
+
+Este documento describe la habilitación de un área de descarga pública mediante acceso FTP anónimo.
+
+## 1. Procedimiento de Configuración
+Se ha procedido a habilitar el acceso sin credenciales específicas para permitir la descarga de archivos públicos.
+
+### Ajustes realizados:
+* **Habilitación:** Se modificó la directiva `anonymous_enable` a `YES`.
+* **Restricción de Directorio:** Se estableció `/srv/ftp/` como raíz para usuarios anónimos, aislándolos del resto del sistema de archivos.
+* **Política de Permisos:** Se ha configurado un entorno de **Solo Lectura**. Se verificó que las opciones de subida (upload) y creación de carpetas estuvieran desactivadas para evitar que usuarios externos llenen el almacenamiento del servidor.
+
+## 2. Verificación de Conexión
+Se realizó una prueba de conexión desde un cliente FTP utilizando el usuario `anonymous` y dejando la contraseña en blanco (o usando un correo electrónico ficticio).
+
+* **Resultado:** El acceso fue exitoso.
+* **Prueba de Permisos:** Se intentó subir un archivo de prueba, obteniendo un error `550 Permission denied`, lo que confirma que la política de solo lectura está operativa.
+
+---
+
+## 3. Evidencia del Servicio
+A continuación se muestra la captura de la sesión FTP donde se observa el listado de archivos públicos y la denegación de permisos de escritura.
+
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T4.png)
