@@ -40,7 +40,7 @@ Se ha configurado un entorno controlado (jaula chroot) para que los usuarios no 
 Para evitar la saturación del servidor y garantizar la disponibilidad, se han modificado las directivas de control en el archivo `vsftpd.conf`.
 
 > **Captura de configuración de límites:**
-> ![Configuración de límites de conexión y velocidad](URL_DE_TU_CAPTURA_DE_LIMITES_AQUÍ)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T3.png)
 
 ## 4. Incidencias
 El proceso se ha completado satisfactoriamente sin incidencias. La integración de los usuarios en el grupo y la aplicación de la jaula `chroot` funcionaron correctamente desde el primer intento.
