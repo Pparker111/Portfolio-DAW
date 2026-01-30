@@ -51,7 +51,7 @@ El servidor debe estar protegido del tráfico no deseado:
 
 ---
 
-### Resumen para tu PDF de entrega
+### Resumen 
 
 | Categoría | Recomendación Principal | Beneficio |
 | --- | --- | --- |
