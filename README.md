@@ -36,4 +36,3 @@ A lo largo del curso he trabajado con las siguientes herramientas y tecnologías
 Este repositorio no solo contiene código; contiene el **"know-how"** de cómo resolver problemas reales de despliegue. He puesto especial énfasis en la **seguridad (FTPS)** y en la **integración de servicios** (FTP + Apache).
 
 ---
-📫 **Contacto:** [Tu perfil de LinkedIn o Email si lo deseas]
