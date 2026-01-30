@@ -53,7 +53,6 @@ El flujo de trabajo seguido para publicar la web fue el siguiente:
 
 En la siguiente captura se observa que el archivo `index.html` ha sido transferido correctamente a la ruta de destino del servidor web:
 
-> **Captura de Verificación:**
 > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T10.png)
 
 ---
