@@ -22,8 +22,6 @@
 
 El primer paso consistió en asegurar que el servidor Apache estuviera instalado y que el directorio de publicación tuviera los permisos necesarios para el usuario FTP.
 
-* **Comando de instalación:**
-`sudo apt update && sudo apt install apache2 -y`
 * **Configuración de permisos:**
 Para permitir que el usuario `user01` pueda subir archivos a la carpeta web, se cambió el propietario y se ajustaron los privilegios:
 `sudo chown -R $USER:$USER /var/www/html`
@@ -56,7 +54,7 @@ El flujo de trabajo seguido para publicar la web fue el siguiente:
 En la siguiente captura se observa que el archivo `index.html` ha sido transferido correctamente a la ruta de destino del servidor web:
 
 > **Captura de Verificación:**
-> > ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T10.png)
+> ![](https://github.com/Pparker111/Portfolio-DAW/blob/main/Ejercicios/UD05/imagenes/T10.png)
 
 ---
 
