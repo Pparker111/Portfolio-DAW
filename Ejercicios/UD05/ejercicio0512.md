@@ -17,10 +17,6 @@
 
 ---
 
-Para completar tu proyecto con éxito, he consolidado todo el trabajo que hemos realizado en un único documento de **Documentación Final**. Este archivo sigue la estructura profesional requerida por el criterio **i** y está listo para ser exportado a PDF o guardado como Markdown.
-
----
-
 ## 1. Instalación del Servidor
 
 Se ha seleccionado **vsftpd** (Very Secure FTP Daemon) por su robustez y eficiencia en entornos Linux.
