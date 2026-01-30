@@ -17,13 +17,6 @@
 </p>
 
 ---
-Esta es la documentación técnica definitiva para la **Actividad 10**. He incluido los comandos exactos que hemos usado, el flujo lógico y el espacio para tu captura.
-
----
-
-# Informe de Integración de FTP con Servidor Web (Actividad 10)
-
-Este documento describe el procedimiento para configurar un servidor FTP como herramienta de despliegue de contenidos hacia un servidor web Apache, permitiendo la actualización de sitios web de forma remota.
 
 ## 1. Preparación del Servidor Web
 
@@ -79,5 +72,3 @@ Una vez confirmada la presencia del archivo en el servidor, se procedió a la vi
 La integración es exitosa. Este método permite separar las capas de administración: el desarrollador utiliza **FTP** para gestionar archivos y el cliente final utiliza **HTTP** para consumir el servicio. Se ha demostrado que el servidor **vsftpd** es una herramienta eficaz para el despliegue de aplicaciones web en entornos Linux.
 
 ---
-
-**¡Con esto ya tienes completadas todas las actividades! ¿Deseas que te ayude a revisar el formato final de todo el documento o necesitas ayuda con alguna otra tarea?**
