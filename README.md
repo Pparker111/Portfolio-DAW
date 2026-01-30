@@ -9,6 +9,7 @@ Bienvenido a mi repositorio de aprendizaje. Este espacio es una recopilación de
 
 Cada Unidad Didáctica (UD) está diseñada para mostrar tanto la implementación técnica como mi proceso de razonamiento a través de diarios de reflexión.
 
+<div align="center">
 | Unidad | Temática | Documentación | Prácticas |
 | :--- | :--- | :---: | :---: |
 | **UD1** | **GitHub & Markdown** | [📓 Diario](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD1.md) | [🛠️ Ver](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD01) |
@@ -16,6 +17,7 @@ Cada Unidad Didáctica (UD) está diseñada para mostrar tanto la implementació
 | **UD3** | **Servidor Apache** | [📓 Diario](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD3.md) | [🛠️ Ver](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD03) |
 | **UD4** | **Apache Tomcat** | [📓 Diario](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD4.md) | [🛠️ Ver](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD04) |
 | **UD5** | **Servidores FTP (Filezilla/vsftpd)** | [📓 Diario](https://github.com/Pparker111/Portfolio-DAW/blob/main/Diarios/diario_UD5.md) | [🛠️ Ver](https://github.com/Pparker111/Portfolio-DAW/tree/main/Ejercicios/UD05) |
+</div>
 
 ---
 
